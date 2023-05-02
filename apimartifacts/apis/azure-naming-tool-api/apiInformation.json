@@ -12,7 +12,6 @@
       "http",
       "https"
     ],
-    "serviceUrl": "https://rubicon-d-namingapp-webapp.azurewebsites.net/",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
