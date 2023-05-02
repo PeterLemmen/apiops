@@ -3,3 +3,7 @@ backends:
    - name: azurenamingapp    
      properties:      
        url: "https://rubicon-t-namingapp-webapp.azurewebsites.net"
+loggers:
+   - name: rubicon-t-demo-appins
+     properties:
+       resourceId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.Insights/components/rubicon-t-demo-appins""
