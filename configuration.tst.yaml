@@ -3,19 +3,16 @@ backends:
    - name: azurenamingapp    
      properties:      
        url: "https://rubicon-t-namingapp-webapp.azurewebsites.net"
+namedValues:
+    - name: application-insights-instrumentation-key
+      properties:
+        value: 7cd36474-fcb8-48de-a0a6-28e56ba92cd5
 loggers:
    - name: appinsights
      properties:
-       credentials:
-         instrumentationKey": "{{application-insights-instrumentation-key}}"
        resourceId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.Insights/components/rubicon-t-demo-appins"
 diagnostics:
     - name: applicationinsights
       properties:
         loggerId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.ApiManagement/service/rubicon-t-demo-apim/loggers/appinsights"
-namedValues:
-    - name: application-insights-instrumentation-key
-      properties:
-        value: 7cd36474-fcb8-48de-a0a6-28e56ba92cd5
-        secret: true
 
