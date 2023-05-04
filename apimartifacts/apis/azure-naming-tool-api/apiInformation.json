@@ -12,6 +12,7 @@
       "http",
       "https"
     ],
+    "serviceUrl": "https://gateway.dev.api.lemmen.amsterdam/azurenaming/v1",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
