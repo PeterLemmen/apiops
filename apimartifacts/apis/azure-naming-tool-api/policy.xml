@@ -13,7 +13,10 @@
 <policies>
 	<inbound>
 		<base />
-		<set-backend-service backend-id="azurenamingapp" />
+		<set-backend-service backend-id="azurenamingapi" />
+		<set-header name="APIKey" exists-action="override">
+			<value>673fdd20-a335-4c8f-b6d6-a360d0f0b326</value>
+		</set-header>
 	</inbound>
 	<backend>
 		<base />
