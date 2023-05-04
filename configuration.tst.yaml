@@ -4,7 +4,7 @@ backends:
      properties:      
        url: "https://rubicon-t-namingapp-webapp.azurewebsites.net"
 loggers:
-   - name: rubicon-t-demo-appins
+   - name: appinsights
      properties:
        credentials:
          instrumentationKey": "{{application-insights-instrumentation-key}}"
@@ -12,4 +12,4 @@ loggers:
 diagnostics:
     - name: applicationinsights
       properties:
-        loggerId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.ApiManagement/service/rubicon-t-demo-apim/loggers/rubicon-t-demo-appins"
+        loggerId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.ApiManagement/service/rubicon-t-demo-apim/loggers/appinsights"
