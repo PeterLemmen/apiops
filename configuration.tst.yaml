@@ -1,6 +1,6 @@
 apimservicename: rubicon-t-demo-apim
 backends:  
-   - name: azurenamingapp    
+   - name: azurenamingapi    
      properties:      
        url: "https://rubicon-t-namingapp-webapp.azurewebsites.net"
 namedValues:
