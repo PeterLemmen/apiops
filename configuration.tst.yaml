@@ -13,3 +13,9 @@ diagnostics:
     - name: applicationinsights
       properties:
         loggerId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.ApiManagement/service/rubicon-t-demo-apim/loggers/appinsights"
+namedValues:
+    - name: application-insights-instrumentation-key
+      properties:
+        value: 7cd36474-fcb8-48de-a0a6-28e56ba92cd5
+        secret: true
+
