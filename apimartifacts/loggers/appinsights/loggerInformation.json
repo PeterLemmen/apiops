@@ -1,7 +1,7 @@
 {
   "properties": {
     "credentials": {
-      "instrumentationKey": "{{Logger-Credentials--6453d57cd2f06e1310d4dd07}}"
+      "instrumentationKey": "{{application-insights-instrumentation-key}}"
     },
     "isBuffered": true,
     "loggerType": "applicationInsights",

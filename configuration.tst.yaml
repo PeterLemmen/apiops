@@ -7,5 +7,5 @@ loggers:
    - name: rubicon-t-demo-appins
      properties:
        credentials:
-         instrumentationKey": "{{Logger-Credentials--64516623657a321348ad037e}}"
+         instrumentationKey": "{{application-insights-instrumentation-key}}"
        resourceId: "/subscriptions/29903316-1b21-45a9-9bcd-412cb865d18b/resourceGroups/rubicon-t-demo-apim/providers/Microsoft.Insights/components/rubicon-t-demo-appins"
