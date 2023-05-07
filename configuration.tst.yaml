@@ -3,10 +3,6 @@ backends:
    - name: azurenamingapi    
      properties:      
        url: "https://rubicon-t-namingapp-webapp.azurewebsites.net"
-namedValues:
-    - name: application-insights-instrumentation-key
-      properties:
-        value: abff4b7f-40c8-4b74-9acf-cf9c787f4c0c
 loggers:
    - name: appinsights
      properties:
